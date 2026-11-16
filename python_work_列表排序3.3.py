@@ -1,0 +1,10 @@
+car= ["Toyota", "Honda", "Ford", "BMW", "Audi"]
+car.sort()
+print(car)
+car.sort(reverse=True)
+print(car)
+print("Here is a list of cars:")
+print(sorted(car))
+print("Here is the original list:")
+print(car)
+print(len(car))
